@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    psql:
+        image: postgres
+        environment:
+            POSTGRES_PASSWORD: admin
+            POSTGRES_USER: admin
+            POSTGRES_DB: shakespeare
+        volumes:
+            # initialize shakespeare data
+            - "./psql:/docker-entrypoint-initdb.d"
+        ports:
+            - 5432
