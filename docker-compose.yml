@@ -1,6 +1,17 @@
 version: "3"
 
 services:
+    app:
+        build: .
+        volumes:
+            # really should put the go src in a subdirectory so we don't have
+            # everything in the docker container
+            - ".:/go/src/app"
+        ports:
+            - 8000
+        links:
+            - psql
+
     psql:
         image: postgres
         environment:
@@ -11,4 +22,4 @@ services:
             # initialize shakespeare data
             - "./psql:/docker-entrypoint-initdb.d"
         ports:
-            - 5432
+           - 5432
