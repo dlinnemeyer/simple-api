@@ -17,6 +17,30 @@
 			"path": "github.com/gorilla/mux",
 			"revision": "2d5fef06b891c971b14aa6f71ca5ab6c03a36e0e",
 			"revisionTime": "2017-11-09T03:54:02Z"
+		},
+		{
+			"checksumSHA1": "IfZcD4U1dtllJKlPNeD2aU4Jn98=",
+			"path": "github.com/lib/pq",
+			"revision": "83612a56d3dd153a94a629cd64925371c9adad78",
+			"revisionTime": "2017-11-26T05:04:59Z"
+		},
+		{
+			"checksumSHA1": "AU3fA8Sm33Vj9PBoRPSeYfxLRuE=",
+			"path": "github.com/lib/pq/oid",
+			"revision": "83612a56d3dd153a94a629cd64925371c9adad78",
+			"revisionTime": "2017-11-26T05:04:59Z"
+		},
+		{
+			"checksumSHA1": "NUvN50OqodpRHCnOhaavdwyUy48=",
+			"path": "gopkg.in/doug-martin/goqu.v4",
+			"revision": "fcccf41c26d20796d831aafe71d121a97f2bb6fb",
+			"revisionTime": "2017-06-12T16:02:31Z"
+		},
+		{
+			"checksumSHA1": "YGvBaaZPgcGQiaDzczpuTahwnfM=",
+			"path": "gopkg.in/doug-martin/goqu.v4/adapters/postgres",
+			"revision": "fcccf41c26d20796d831aafe71d121a97f2bb6fb",
+			"revisionTime": "2017-06-12T16:02:31Z"
 		}
 	],
 	"rootPath": "github.com/dlinnemeyer/simple-api"
