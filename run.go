@@ -21,6 +21,7 @@ func SetDB() {
     db = goqu.New("postgres", pgDb)
 }
 
+// TODO: use NullString, NullInt64, etc. fom database/sql for nullable fields
 type Work struct{
     Id int64 `db:"workid"`
     Title string `db:"title"`
